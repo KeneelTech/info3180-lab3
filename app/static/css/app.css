@@ -1,3 +1,27 @@
 body {
     padding-top: 5rem;
 }
+
+.contact-form-header {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-decoration:underline;
+}
+
+.form-group{
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-group p1{
+    color: red;
+}
+
+.form-group p2{
+    font-weight: lighter;
+}
+
+.form-control{
+    margin-top: 30px;
+}
