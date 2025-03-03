@@ -7,7 +7,7 @@ class Config(object):
     """Base Config Object"""
     DEBUG = True
     SECRET_KEY = os.environ.get('SECRET_KEY', 'Som3$ec5etK*y')
-    MAIL_SERVER = os.environ.get('MAIL_SERVER', 'localhost')
+    MAIL_SERVER = os.environ.get('MAIL_SERVER', 'sandbox.smtp.mailtrap.io')
     MAIL_PORT = os.environ.get('MAIL_PORT', '25')
-    MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
-    MAIL_PASSwORD = os.environ.get('MAIL_PASSwORD')
+    MAIL_USERNAME = os.environ.get('MAIL_USERNAME', 'bab09888405225')
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD', 'f77f8e9161be77')
